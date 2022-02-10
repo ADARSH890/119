@@ -1,0 +1,39 @@
+#show_sketch{
+    float:right;
+}
+body{
+background-color: chartreuse;
+color:darkred;
+}
+h1{
+    background-color: orange;
+    color: crimson;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#score{
+    margin-left: 10px;
+    font-size: 30px;
+}
+#time{
+    margin-right: 30px;
+    font-size: 30px;
+    float:right;
+}
+p,span{
+    padding-top: 10px;
+    font-size: 25px;
+}
+canvas{
+
+    animation-name:adarsh;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes adarsh{
+    0%{box-shadow: 3px 3px 40px crimson;}
+    25%{box-shadow: 3px 3px 40px chocolate;}
+    50%{box-shadow: 3px 3px 40px darkblue;}
+    75%{box-shadow: 3px 3px 40px darkslategrey;}
+    100%{box-shadow: 3px 3px 40px darkred;}
+}
